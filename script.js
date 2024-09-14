@@ -8,3 +8,11 @@
 // console.log(calculateArea(length, width));
 
 // ========================================================
+
+// ==================== celsius to fahrenheit ===========================
+
+const tempurator = +prompt("please enter tempurator : ");
+
+const celsiusToFahrenheit = (temp) => (temp * 9) / 5 + 32;
+
+console.log(celsiusToFahrenheit(tempurator));
